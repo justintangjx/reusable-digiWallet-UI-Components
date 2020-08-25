@@ -1,0 +1,52 @@
+{
+  "name": "wallet-frontend",
+  "version": "0.1.0",
+
+  "main": "Gruntfile.js",
+  "directories": {
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "1.9.0",
+    "@typescript-eslint/parser": "1.9.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-react-app": "4.0.1",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.13.0",
+    "eslint-plugin-react-hooks": "1.6.0",
+    "grunt": "1.0.4",
+    "grunt-eslint": "21.0.0",
+    "grunt-exec": "3.0.0",
+    "grunt-tslint": "5.0.2",
+    "husky": "2.3.0",
+    "lerna": "3.14.1",
+    "load-grunt-tasks": "5.0.0",
+    "moment": "2.24.0",
+    "prettier": "1.16.4",
+    "source-map-loader": "0.2.4",
+    "tslint": "5.17.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "tslint-react": "3.6.0",
+    "typescript": "3.6.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "grunt eslint && grunt tslint",
+      "pre-push": "grunt eslint && grunt tslint"
+    }
+  },
+  "scripts": {
+    "packages:install": "npx lerna bootstrap --hoist --ci",
+    "packages:install-no-ci": "npx lerna bootstrap --hoist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:dingfeng/frontend.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

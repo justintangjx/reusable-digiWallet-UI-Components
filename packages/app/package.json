@@ -1,0 +1,65 @@
+{
+    "name": "@local/app",
+    "version": "0.1.0",
+    "main": "prod/server.js",
+    "private": true,
+    "dependencies": {
+        "@local/f-redux": "0.1.0",
+        "@local/f-model": "0.1.0",
+        "@local/f-workflows": "0.1.0",
+        "@local/f-ioa": "0.1.0",
+        "@local/result": "0.1.0",
+        "@local/ui-components": "0.1.0",
+        "@material-ui/core": "3.9.3",
+        "@material-ui/icons": "3.0.2",
+        "@material-ui/styles": "4.1.1",
+        "@types/jest": "24.0.11",
+        "@types/node": "10.14.9",
+        "@types/react": "16.8.12",
+        "@types/react-dom": "16.8.3",
+        "@types/react-redux": "7.1.0",
+        "@types/react-router-dom": "4.3.2",
+        "express": "4.17.1",
+        "morgan": "1.9.1",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-redux": "7.1.0",
+        "react-router-dom": "5.0.0",
+        "react-scripts": "3.0.1",
+        "redux": "4.0.1",
+        "redux-saga": "1.0.4",
+        "typescript": "3.6.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "prod": "node prod/server.js"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "eslint": "5.16.0",
+        "grunt": "1.0.4",
+        "grunt-eslint": "21.0.0",
+        "grunt-exec": "3.0.0",
+        "grunt-tslint": "5.0.2",
+        "husky": "2.3.0",
+        "load-grunt-tasks": "5.0.0",
+        "moment": "2.24.0",
+        "prettier": "1.16.4",
+        "source-map-loader": "0.2.4",
+        "tslint": "5.17.0",
+        "tslint-config-prettier": "1.18.0",
+        "tslint-plugin-prettier": "2.0.1",
+        "tslint-react": "3.6.0"
+    }
+}
