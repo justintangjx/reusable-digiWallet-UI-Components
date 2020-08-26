@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>EURT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="23.5120123%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.477468297" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="EURT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FF6B6B" cx="20" cy="20" r="20"></circle>
+        <path d="M19.8428835,30.3530499 C14.4898336,30.3530499 11,26.4491682 11,19.676525 C11,12.9038817 14.4898336,9 19.8428835,9 C23.6284658,9 25.4621072,10.7449168 26.7338262,12.844732 L23.8946396,14.8262477 C23.0665434,13.1404806 21.7948244,12.1645102 19.8428835,12.1645102 C17.5656192,12.1645102 15.8502773,13.6432532 15.3179298,16.038817 L22.3567468,16.038817 L22.3567468,18.4935305 L15.1109057,18.4935305 L15.1109057,20.8595194 L22.3271719,20.8595194 L22.3271719,23.3142329 L15.3179298,23.3142329 C15.8502773,25.7689464 17.5360444,27.1885397 19.8428835,27.1885397 C21.8243993,27.1885397 23.2144177,26.1534196 24.1608133,24.2902033 L27,26.3604436 C25.8170055,28.4306839 23.7467652,30.3530499 19.8428835,30.3530499 Z" id="€" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>
